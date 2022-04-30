@@ -1,0 +1,38 @@
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 20px;
+    background-color: lightgray;
+    align-items: center;
+}
+#main   {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-around;
+}
+.def-box    {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+}
+#login-btn  {
+    background-color: blue;
+}
+.like-btn   {
+    background-color: yellow;
+}
+#def-btn    {
+    background-color: green;
+}
+/* #left-side  {
+    margin: 10px;
+} */
+#right-side {
+    border: 1px solid black;
+    padding: 10px;
+}
