@@ -6,6 +6,7 @@ body    {
     flex-direction: row;
     justify-content: space-between;
     width: 1000px;
+    height: 50px;
     padding: 20px;
     margin-left: 200px;
     background-color: lightgray;
@@ -15,35 +16,48 @@ body    {
     display: flex;
     flex-direction: row;
     margin: 20px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .def-box    {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     border: 1px solid black;
-    margin: 15px;
-    padding: 10px;
+    margin: 0px 15px 15px 0px;
 }
 #login-btn  {
     background-color: #0088ff;
+    width: 100px;
+    height: 30px
 }
 .like-btn   {
     background-color: #ffb700;
+    width: 100px;
+    height: 30px;
 }
 #def-btn    {
     background-color: #08a108;
+    height: 30px;
+    width: 150px;
 }
 #left-side  {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 650px;
 }
 #right-side {
     border: 1px solid black;
     padding: 15px;
     height: 100px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #button-side    {
-    margin: 20px;
+    padding: 10px;
+}
+#definition-side    {
     padding: 10px;
 }
