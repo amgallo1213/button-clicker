@@ -1,9 +1,13 @@
+body    {
+    font-family: 'Roboto', sans-serif;
+}
 #nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 1000px;
     padding: 20px;
+    margin-left: 200px;
     background-color: lightgray;
     align-items: center;
 }
@@ -15,24 +19,31 @@
 }
 .def-box    {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border: 1px solid black;
     margin: 15px;
     padding: 10px;
 }
 #login-btn  {
-    background-color: blue;
+    background-color: #0088ff;
 }
 .like-btn   {
-    background-color: yellow;
+    background-color: #ffb700;
 }
 #def-btn    {
-    background-color: green;
+    background-color: #08a108;
 }
-/* #left-side  {
-    margin: 10px;
-} */
+#left-side  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #right-side {
     border: 1px solid black;
+    padding: 15px;
+    height: 100px;
+}
+#button-side    {
+    margin: 20px;
     padding: 10px;
 }
